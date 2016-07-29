@@ -1,6 +1,6 @@
-# APISearch x64 - Plugin For x64dbg
+# APISearch Plugin (x64) - A Plugin For x64dbg
 
-![](https://github.com/mrfearless/APISearch-x64/blob/master/images/APISearch.png) [Current version: 1.0.0.3 - Last updated: 26/06/2016](https://github.com/mrfearless/APISearch-x64/releases/latest) For the x86 version of this plugin, visit [here](https://github.com/mrfearless/APISearch-x86)
+![](https://github.com/mrfearless/APISearch-x64/blob/master/images/APISearch.png) [Current version: 1.0.0.3 - Last updated: 26/06/2016](https://github.com/mrfearless/APISearch-x64/releases/latest) For the x86 version of this plugin, visit [here](https://github.com/mrfearless/APISearch-Plugin-x86)
 
 ## Overview
 
