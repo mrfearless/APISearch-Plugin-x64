@@ -1,5 +1,5 @@
 ;=====================================================================================
-; x64dbg plugin SDK for Masm - fearless 2015
+; x64dbg plugin SDK for Masm - fearless 2017
 ;
 ; APISearch.asm
 ;
@@ -214,7 +214,10 @@ plugsetup endp
 ;-------------------------------------------------------------------------------------
 CBMENUENTRY PROC FRAME USES RBX cbType:QWORD, cbInfo:QWORD
     mov rbx, cbInfo
-    mov rax, [rbx].PLUG_CB_MENUENTRY.hEntry
+    xor rax, rax
+    mov eax, [rbx].PLUG_CB_MENUENTRY.hEntry
+    
+    ;PrintDWORD eax
     
     .IF rax == MENU_SEARCH_GOOGLE
         Invoke SearchForAPIKeyword, 0 ;testDisasm

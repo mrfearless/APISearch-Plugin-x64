@@ -1,5 +1,5 @@
 ;=====================================================================================
-; x64dbg plugin SDK for Masm - fearless 2015
+; x64dbg plugin SDK for Masm - fearless 2017
 ;
 ; APISearch.inc
 ;
@@ -46,7 +46,7 @@ szMenuSearchGoogle      DB "Search Google...",0
 szMenuSearchMSDN        DB "Search MSDN...",0
 szMenuSearchPinvoke     DB "Search Pinvoke...",0
 szAPISearchInfo         DB 13,10         
-                        DB "APISearch x64dbg plugin by fearless 2016 - www.LetTheLight.in",13,10
+                        DB "APISearch x64dbg plugin by fearless 2017 - www.LetTheLight.in",13,10
                         DB 13,10
                         DB "APISearch Features & Usage:",13,10
                         DB " - Search online for API calls in the dissassembly window (lines that begin with 'call')",13,10  
